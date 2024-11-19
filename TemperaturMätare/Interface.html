@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Interface.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+</head>
+<body>
+    <h1 id="TheHeading">Temperatur&HumidityMätare</h1>
+    <div class="scene">
+        <div class="cube" id="cube">
+            <div class="face front">
+                <canvas id="temperatureChart" width="165" height="165"></canvas>
+            </div>
+            <div class="face back">
+                <canvas id="humidityChart" width="165" height="165"></canvas>
+            </div>
+            <div class="face right">
+                <canvas id="temperatureFarenheit" width="165" height="165"></canvas>
+            </div>
+            <div class="face left">
+                <canvas id="temperatureKelvin" width="165" height="165"></canvas>
+            </div>
+            <div class="face top">
+                <canvas id="humidityVaporPressure" width="165" height="165"></canvas>
+            </div>
+            <div class="face bottom" style="align-items: center;"><span height="165" width="165" style="text-align: center;">By Aidin<br>HitachiGymnasiet</span></div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="TemperaturButton" class="button" onclick="rotateCube('front')">Temperatur °C</button>
+        <button id="HumidityButton" class="button" onclick="rotateCube('back')">Humidity %</button>
+        <button id="TemperaturFButton" class="button" onclick="rotateCube('right')">Temperatur °F</button>
+        <button id="TemperaturKButton" class="button" onclick="rotateCube('left')">Temperatur °K</button>
+        <button id="Humidity_hPaButton" class="button" onclick="rotateCube('top')">Humidity hPa</button>
+        <button class="button" onclick="rotateCube('bottom')">Just a side</button>
+    </div>
+    <script src="Interface.js"></script>
+    <script src="Temp chart.js"></script>
+    <script src="Humidity chart.js"></script>
+    <script src="Temerature chart farenheit.js"></script>
+    <script src="Temperature chart kelvin.js"></script>
+    <script src="Humidity vapor pressure.js"></script>
+</body>
+</html>
