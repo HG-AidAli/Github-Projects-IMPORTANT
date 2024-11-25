@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 x: {
                     title: {
                         display: true,
-                        text: 'Seconds'
+                        text: 'Per 12 Seconds'
                     }
                 }
             }

@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 x: {
                     title: {
                         display: true,
-                        text: 'Seconds'
+                        text: 'Per 12 Seconds'
                     }
                 }
             }
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     humidityData.shift();
                     humidityChart.update();
                 } else {
-                    console.log("Error fetching data from Firebase");
+                    console.log("Error fetching data from Firebase  >:[");
                 }
             });
         }
