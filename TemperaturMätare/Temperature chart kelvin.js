@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById('temperatureKelvin').getContext('2d');
-    var temperatureData = [300,300,300,300,300,300];
+    var temperatureData = [300,300,300,300,300,300,300,300,300];
     var labels = [1,2,3,4,5,6,7,8,9,10];
     const firebaseConfig = {
 

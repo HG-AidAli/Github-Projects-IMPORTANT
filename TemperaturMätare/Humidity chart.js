@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById('humidityChart').getContext('2d');
-    var humidityData = [50,50,50,50,50,50];
+    var humidityData = [50,50,50,50,50,50,50,50,50];
     var labels = [1,2,3,4,5,6,7,8,9,10];
     const firebaseConfig = {
 
