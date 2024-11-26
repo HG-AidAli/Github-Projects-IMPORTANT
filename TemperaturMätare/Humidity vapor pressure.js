@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     var humidityData = [18,18,18,18,18,18,18,18,18];
-    var labels = [1,2,3,4,5,6,7,8,9,10];
+    var labels = ["^","*","^","*","^","*","^","*","^"];
     var humidityChart = new Chart(ctx, {
         type: 'line',
         data: {

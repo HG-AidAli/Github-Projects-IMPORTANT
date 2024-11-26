@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById('temperatureFarenheit').getContext('2d');
 
     var temperatureData = [60,60,60,60,60,60,60,60,60];
-    var labels = [1,2,3,4,5,6,7,8,9,10];
+    var labels = ["^","*","^","*","^","*","^","*","^"];
     const firebaseConfig = {
 
         apiKey: "AIzaSyDYfFFPXiXnRyBhPBPTwkn_Jazn3GoLS1I",

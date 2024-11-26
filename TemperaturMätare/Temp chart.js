@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const database = firebase.database();
     
     var temperatureData = [23,23,23,23,23,23,23,23,23];
-    var labels = [1,2,3,4,5,6,7,8,9,10];
+    var labels = ["^","*","^","*","^","*","^","*","^"];
 
     var temperatureChart = new Chart(ctx, {
         type: 'line',
